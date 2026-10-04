@@ -1,0 +1,31 @@
+# Secrets and local configuration — never commit these
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env.local
+logs/
+
+# Dependencies and build output
+node_modules/
+dist/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Uploaded files (logo, employee documents) live on the server, not in git
+backend/uploads/
+
+# Mobile app build artefacts
+mobile/.expo/
+mobile/web-build/
+mobile/ios/
+mobile/android/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
