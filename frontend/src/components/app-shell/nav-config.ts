@@ -61,8 +61,8 @@ export interface NavGroup {
 }
 
 // Grown module-by-module as each phase's screens land — see
-// C:\Users\PC\.claude\plans\replicated-pondering-hippo.md for the phase
-// order. Only routes that actually exist belong here.
+// docs/module-structure.md for the module order. Only routes that actually
+// exist belong here.
 export const NAV_GROUPS: NavGroup[] = [
   {
     label: '',
